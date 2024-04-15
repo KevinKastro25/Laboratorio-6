@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.menu {
+    background-color: rgb(75, 22, 33);
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: rgb(98, 32, 45);
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    color: black;
+    height: 300px;
+}
+
+.columna1{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.columna2{
+    background-image: url(../image/card-1.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.main-2{
+    align-items: center;
+    color: black;
+    height: 300px;
+}
+
+.columna3{
+    background-image: url(../image/card-2.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.columna4{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.main-3{
+    align-items: center;
+    color: black;
+    height: 300px;
+}
+.columna5{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.columna6{
+    background-image: url(../image/card-3.jpg);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 250px;
+}

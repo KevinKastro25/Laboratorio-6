@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(154, 47, 68) !important; /* Un color negro semi-transparente */
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.menu {
+    background-color: rgb(75, 22, 33);
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: rgb(98, 32, 45);
+    border-radius: 10px;
+}
+
+.d-item {
+    height: 400px;
+}
+
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
